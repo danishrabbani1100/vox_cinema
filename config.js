@@ -1,6 +1,6 @@
 exports.config = {
     mysql      : {
-        host            : "35.196.80.116",
+        host            : "104.196.15.116",
         user            : "admin",
         password        : "mysql",
         database        : "vox_cinemas",
