@@ -45,7 +45,7 @@ exports.sendCarousel = function(req, res) {
         return;
     }
     let user_id = req.query.user_id,
-        pageToken = 'EAAfiZCGZC09KEBAK8fkS89EQBZA6boXsrvHEnlIZBf9mGgUoYE65BeCOofUVMKxEcr1g6hT2GxMnWX5v2SvJiU66sdPB4bUAQKBbTfE7GfUuoDmvHGWK346UxswRd3xPgsytMaTKwycjt0cI9FqniHTnoLZCxg9fRMhNZBqjChaAZA86YGu1Mo3vZCoohRWMMYgZD',
+        pageToken = 'EAAEZAZABbZBwpgBAGWNhfVpwZBA7YkFf9p4V7BCkbv0bZAP24TTC4kqCBjeu7FxkrFoQe83XEZCkemlWlyzTURG2vaVAk3OY7ZBewVltLc5ESYqoCcc4btyTSZAAHJZCTcqsIeTNOwq2w9LTmboddA4dPSKVbTB79ZCgxxHaKkafNBUNZAJ4uQRFuJDDOZCB98rOoKYZD',
         url = `https://graph.facebook.com/v2.6/me/messages?access_token=${pageToken}`;
 
     let query = `SELECT * FROM movies`;
