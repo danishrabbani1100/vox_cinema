@@ -45,7 +45,7 @@ exports.sendCarousel = function(req, res) {
         return;
     }
     let user_id = req.query.user_id,
-        pageToken = 'EAAJNkpEid00BAMm30NtM5KWpeZB1kjfOvjQD7MylIo9yJZAKt7pO1YZCr9yKpZCgcXT5z8yPZAprvRifCKgDjqXZC2ZC8gkws4QTLZAEabpOfdeey6ZA8r4gdQKSRQndrFbZAoTo4h6dDCLMIrZBXBPjUhZCduZAZBIXGfhzN2n8k2D0sudAz8mZCzkp1vB1RJFAM1PE8gZD',
+        pageToken = 'EAAH1WnkqLxIBAAQBG8pWlWiVc2VpuUXSsC9Q4kAZBZC5wzON60vDiRkm0ZBCf9e9qqwZAdt3V8mKMRrTte6EJZAhDK9P7UVcYjaGtFHAaZBjxZAnRhT8TN5qqdxLY3xgEdMAo3yst0FZASUy22I9qE5ZBNizDA7YFWKzHPkz8QluJcTARIsVze2DZCZA8qRXfdHpRkZD',
         url = `https://graph.facebook.com/v2.6/me/messages?access_token=${pageToken}`;
 
     let query = `SELECT * FROM movies`;
@@ -120,7 +120,7 @@ exports.showTimeCarousel = function(req, res) {
         return;
     }
     let user_id = req.query.user_id,
-        pageToken = 'EAAJNkpEid00BAMm30NtM5KWpeZB1kjfOvjQD7MylIo9yJZAKt7pO1YZCr9yKpZCgcXT5z8yPZAprvRifCKgDjqXZC2ZC8gkws4QTLZAEabpOfdeey6ZA8r4gdQKSRQndrFbZAoTo4h6dDCLMIrZBXBPjUhZCduZAZBIXGfhzN2n8k2D0sudAz8mZCzkp1vB1RJFAM1PE8gZD',
+        pageToken = 'EAAH1WnkqLxIBAAQBG8pWlWiVc2VpuUXSsC9Q4kAZBZC5wzON60vDiRkm0ZBCf9e9qqwZAdt3V8mKMRrTte6EJZAhDK9P7UVcYjaGtFHAaZBjxZAnRhT8TN5qqdxLY3xgEdMAo3yst0FZASUy22I9qE5ZBNizDA7YFWKzHPkz8QluJcTARIsVze2DZCZA8qRXfdHpRkZD',
         url = `https://graph.facebook.com/v2.6/me/messages?access_token=${pageToken}`;
 
     let query = `SELECT * FROM movies`;
