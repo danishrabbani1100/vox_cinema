@@ -26,7 +26,7 @@ exports.bookSeats = function(req,res) {
         query = 'INSERT INTO tickets (movie_id, seat_number, show_date, user_id, cinema_id) VALUES ?',
         values = [];
 
-    let pageToken = 'EAAH1WnkqLxIBAAQBG8pWlWiVc2VpuUXSsC9Q4kAZBZC5wzON60vDiRkm0ZBCf9e9qqwZAdt3V8mKMRrTte6EJZAhDK9P7UVcYjaGtFHAaZBjxZAnRhT8TN5qqdxLY3xgEdMAo3yst0FZASUy22I9qE5ZBNizDA7YFWKzHPkz8QluJcTARIsVze2DZCZA8qRXfdHpRkZD',
+    let pageToken = 'EAAKCZBAZCcovcBAFpdVWopMnZBhqXAxEdpNdKvmG6FuCNZCgt2iBvhymjL26lJlwe7ntMuPoBnX105ZCZA77fh848z0hg7PK2XkO8yh8WgZBBmpnytFbiuPOhLwO22FkOm2wILcGN5Bxw4ZCcU95bGkEQl9wppITGWuZAos1T62pOJY3TEtbXO03j846Hs7HckMYZD',
         message = '',
         sendMessageURL = 'https://bots.mercurialminds.com/fb-forward-msg.jsp';
 
