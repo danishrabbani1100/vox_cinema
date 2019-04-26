@@ -1,9 +1,9 @@
 exports.config = {
     mysql      : {
-        host            : "35.196.203.193",
+        host            : "35.237.170.97",
         user            : "admin",
         password        : "mysql",
-        database        : "vox_cinemas",
+        database        : "vox_cinema",
         connectionLimit : 50
     },
     errorCodes : {
